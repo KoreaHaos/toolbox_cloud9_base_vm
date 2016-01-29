@@ -1,3 +1,28 @@
+Browser Dump 1/29/16 1:00pm
+
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=github%20clone%20folder&oq=github%20clone%20folder&aqs=chrome..69i57j0l3.9647j1j8
+http://stackoverflow.com/questions/600079/is-there-any-way-to-clone-a-git-repositorys-sub-directory-only
+
+http://www.cyberciti.biz/faq/bash-prepend-text-lines-to-file/
+http://www.gnu.org/software/bash/manual/html_node/Arrays.html
+http://stackoverflow.com/questions/10806357/associative-arrays-are-local-by-default
+http://www.linuxjournal.com/content/bash-associative-arrays
+http://www.cyberciti.biz/faq/bash-for-loop-array/
+http://stackoverflow.com/questions/638975/how-do-i-tell-if-a-regular-file-does-not-exist-in-bash
+http://www.tldp.org/LDP/abs/html/fto.html
+http://superuser.com/questions/384366/remove-a-certain-line-from-bash-history-file
+http://askubuntu.com/questions/67283/is-it-possible-to-make-writing-to-bash-history-immediate
+http://www.aloop.org/2012/01/19/flush-commands-to-bash-history-immediately/
+https://www.digitalocean.com/community/tutorials/how-to-use-bash-history-commands-and-expansions-on-a-linux-vps
+http://www.tldp.org/LDP/abs/html/histcommands.html
+http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/x1712.htm
+http://www.linuxquestions.org/questions/programming-9/%5Bsolved%5D%5Bworkaround%5Dclosing-a-terminal-from-within-bash-assistance-request-916581/
+http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html
+http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-10.html
+
+http://stackoverflow.com/questions/8055501/how-to-copy-in-bash-all-directory-and-files-recursive
+http://unix.stackexchange.com/questions/45676/how-do-i-remove-a-directory-and-all-its-contents
+
 Browser Dump 1/27/16 2:15pm
 
 http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html
