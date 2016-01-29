@@ -1,5 +1,6 @@
 Browser Dump 1/29/16 2:45pm
 
+http://stackoverflow.com/questions/17959317/bash-delete-all-files-and-directories-but-certain-ones
 https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=bash%20mv&oq=bash%20mv&aqs=chrome..69i57j0l5.1821j1j4
 http://ss64.com/bash/mv.html
 http://gd.tuwien.ac.at/linuxcommand.org/lts0050.html
