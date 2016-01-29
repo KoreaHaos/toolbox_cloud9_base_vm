@@ -59,17 +59,13 @@ function set_up_bash_history_file() {
     local _history_file_path=~/.bash_history;
     
     if [ -e $_history_file_path ]; then
-        echo "HISTORY FILE PRESENT!!";
+        echo "History file present, commands will be prepended to file.";
         cat $_history_file_path >>tmp_history_file.txt
     else
-        echo "!! NO HISTORY FILE PRESENT !!";
+        echo "No history file present, creation will be attempted.";
     fi
     
     cp tmp_history_file.txt $_history_file_path;
-    
-    # kill $PPID
-    
-    echo "HEELLLLOOOO!";
 }
 
 function say_hello() {
@@ -77,7 +73,15 @@ function say_hello() {
 }
 
 function restart_cloud9_terminal() {
-    clear_screen_display_message_centered "RESTARTING TERMINAL IN 5 SECONDS!!" 5;
     
-    #kill $PPID;
+    local COUNTER=0;
+    local SECS_TO_COUNT=5;
+    while [  $COUNTER -lt $SECS_TO_COUNT ]; do
+        local _SECS_REMAIN=$(($SECS_TO_COUNT-$COUNTER));
+        local _RESET_MESSAGE="RESTARTING TERMINAL IN $_SECS_REMAIN SECONDS!!";
+        clear_screen_display_message_centered "$_RESET_MESSAGE" 1;
+        let COUNTER=COUNTER+1 
+     done
+
+    kill $PPID;
 }
