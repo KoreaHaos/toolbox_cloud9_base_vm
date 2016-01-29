@@ -25,22 +25,13 @@ function get_capstone_setup() {
 }
 function get_capstone_setup_and_make_it_primary_project() {
     
-    echo "HELLO!";
     load_repository "https://github.com/KoreaHaos/CarrollCapStone.git";
-    
     pause_for_carriage_return;
-    
-    shopt -s extglob;
-    pause_for_carriage_return;
-    #rm -r !(.c9|CarrollCapStone);
-    #rm -rf !(CarrollCapStone|.c9);
-    rm -rf !(CarrollCapStone|.c9);
-    pause_for_carriage_return;
-    shopt -u extglob
-    # clear_screen_display_message_centered "get_capstone_setup, WOOT_WOOT!" 1;
-    #mv CarrollCapStone/.* CarrollCapStone/* .;
-    #rmdir CarrollCapStone
-    #clear_screen_display_message_centered "get_capstone_setup, WOOT_WOOT!" 1;
+    export GLOBIGNORE="BASH:CarrollCapStone:.c9";
+    rm -rf *;
+    mv CarrollCapStone/.* CarrollCapStone/* .;
+    rmdir CarrollCapStone;
+    export GLOBIGNORE="";
 }
 
 function pause_for_carriage_return() {
