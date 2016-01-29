@@ -1,0 +1,23 @@
+Browser Dump 1/27/16 2:15pm
+
+http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html
+http://stackoverflow.com/questions/10551981/how-to-perform-a-for-loop-on-each-character-in-a-string-in-bash
+http://stackoverflow.com/questions/10551981/how-to-perform-a-for-loop-on-each-character-in-a-string-in-bash/10552175#10552175
+http://www.cyberciti.biz/faq/linux-unix-sleep-bash-scripting/
+http://stackoverflow.com/questions/947897/block-comments-in-a-shell-script
+http://www.linuxjournal.com/content/return-values-bash-functions
+
+Browser Dump 1/27/16 10:30am
+
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=bash%20get%20terminal%20size&oq=bash%20get%20terminal%20size&aqs=chrome..69i57.3950j0j8
+http://stackoverflow.com/questions/263890/how-do-i-find-the-width-height-of-a-terminal-window
+https://www.npmjs.com/package/window-size
+http://linux.about.com/library/cmd/blcmdl1_tput.htm
+http://www.tldp.org/HOWTO/Bash-Prompt-HOWTO/x405.html
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=bash%20working%20with%20integers&oq=bash%20working%20with%20integers&aqs=chrome..69i57.4381j0j8
+http://bash.cyberciti.biz/guide/Perform_arithmetic_operations
+http://vim.wikia.com/wiki/Using_GUI_color_settings_in_a_terminal
+http://stackoverflow.com/questions/17368067/length-of-string-in-bash
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=30%20cm%20to%20inches&oq=30%20cm%20to%20&aqs=chrome.1.69i57j0l5.4567j0j8
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=seoul%20vurt&oq=seoul%20vurt&aqs=chrome..69i57.4133j0j8
+https://www.google.com/search?q=height&oq=height&aqs=chrome..69i57j0l5.973j0j8&sourceid=chrome&es_sm=122&ie=UTF-8
