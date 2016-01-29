@@ -41,7 +41,7 @@ function set_up_bash_history_file() {
     
     declare -a lines_to_prepend_to_bash_history_file;
     
-    lines_to_prepend_to_bash_history_file=("BASH/github/add_commit_push_all.bash");
+    lines_to_prepend_to_bash_history_file=("bash BASH/github/add_commit_push_all.bash");
     
     if [ -e $_path_for_temp_file ]; then
         echo "TEMP FILE EXISTS!";
