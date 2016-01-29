@@ -3,7 +3,9 @@ function setup_toolbox_for_github_bash() {
     
     clear_screen_display_message_centered "setup_toolbox_for_github_bash proceeding!" 1;
     git clone $_URL_4_toolbox_github_bash;
-    cp -r ./toolbox_github_bash/bash/toolbox/github ./BASH/github;
+    #cp -r ./toolbox_github_bash/bash/toolbox/github ./BASH/github;
+    mkdir -p ~/haos_tools/BASH/github
+    cp -r ./toolbox_github_bash/bash/toolbox/github ~/haos_tools/BASH;
     rm -rf toolbox_github_bash;
     echo "FOLDER(S) AND FILE(S) ADDED TO BASH FOLDER!!"
     sleep 3;
@@ -26,7 +28,6 @@ function get_capstone_setup() {
 function get_capstone_setup_and_make_it_primary_project() {
     
     load_repository "https://github.com/KoreaHaos/CarrollCapStone.git";
-    pause_for_carriage_return;
     export GLOBIGNORE="BASH:CarrollCapStone:.c9";
     rm -rf *;
     mv CarrollCapStone/.* CarrollCapStone/* .;
@@ -58,7 +59,7 @@ function set_up_bash_history_file() {
     
     declare -a lines_to_prepend_to_bash_history_file;
     
-    lines_to_prepend_to_bash_history_file=("bash ~/workspace/BASH/github/add_commit_push_all.bash");
+    lines_to_prepend_to_bash_history_file=("bash ~/haos_tools/BASH/github/add_commit_push_all.bash");
     
     if [ -e $_path_for_temp_file ]; then
         echo "TEMP FILE EXISTS!";

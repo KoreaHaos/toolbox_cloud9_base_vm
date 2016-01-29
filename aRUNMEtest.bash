@@ -26,7 +26,7 @@ get_capstone_setup_and_make_it_primary_project;
 #do_passed_in_functions_if_user_wants_to set_up_bash_history_file;
 #do_passed_in_functions_if_user_wants_to restart_cloud9_terminal;
 
-display_goodbye;
+#display_goodbye;
 
 
 # START OF COMMENT BLOCK
