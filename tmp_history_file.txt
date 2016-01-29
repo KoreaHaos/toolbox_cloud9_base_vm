@@ -1,0 +1,9 @@
+BASH/github/add_commit_push_all.bash
+BASH/github/add_commit_push_all.bash
+BASH/github/add_commit_push_all.bash
+BASH/github/add_commit_push_all.bash
+BASH/github/add_commit_push_all.bash
+ls
+echo hello world!
+ls
+exit
