@@ -28,7 +28,7 @@ function get_capstone_setup() {
 function get_capstone_setup_and_make_it_primary_project() {
     
     load_repository "https://github.com/KoreaHaos/CarrollCapStone.git";
-    export GLOBIGNORE="BASH:CarrollCapStone:.c9";
+    export GLOBIGNORE="CarrollCapStone:.c9";
     rm -rf *;
     mv CarrollCapStone/.* CarrollCapStone/* .;
     rmdir CarrollCapStone;
