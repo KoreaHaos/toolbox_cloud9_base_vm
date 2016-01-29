@@ -14,7 +14,7 @@ END
 
 setup_toolbox_for_github_bash;
 cache_username_and_password_for_git;
-get_capstone_setup;
+get_capstone_setup_and_make_it_primary_project;
 
 #do_passed_in_functions_if_user_wants_to cache_username_and_password_for_git;
 #do_passed_in_functions_if_user_wants_to setup_toolbox_for_github_bash;
