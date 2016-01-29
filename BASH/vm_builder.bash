@@ -28,7 +28,7 @@ function get_capstone_setup_and_make_it_primary_project() {
     
     clear_screen_display_message_centered "get_capstone_setup, WOOT_WOOT!" 1;
     load_repository "https://github.com/KoreaHaos/CarrollCapStone.git";
-    rm -rf !(CarrollCapStone|.c9);
+    rm -rf ![CarrollCapStone|.c9];
     mv CarrollCapStone/.* CarrollCapStone/* .;
     rmdir CarrollCapStone
     #clear_screen_display_message_centered "get_capstone_setup, WOOT_WOOT!" 1;
