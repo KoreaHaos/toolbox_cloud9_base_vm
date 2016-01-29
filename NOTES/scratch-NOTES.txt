@@ -1,3 +1,13 @@
+Browser Dump 1/29/16 2:45pm
+
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=bash%20mv&oq=bash%20mv&aqs=chrome..69i57j0l5.1821j1j4
+http://ss64.com/bash/mv.html
+http://gd.tuwien.ac.at/linuxcommand.org/lts0050.html
+http://gd.tuwien.ac.at/linuxcommand.org/man_pages/mv1.html
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=bash%20move%20all%20files%20up%20one%20directory&oq=bash%20move%20all%20files%20up%20one%20directory&aqs=chrome.0.69i59j0.5527j0j8
+http://stackoverflow.com/questions/9964082/bash-how-can-i-move-all-the-content-in-the-folder-up-to-one-level
+http://unix.stackexchange.com/questions/19344/move-folder-content-up-one-level
+
 Browser Dump 1/29/16 1:00pm
 
 https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=github%20clone%20folder&oq=github%20clone%20folder&aqs=chrome..69i57j0l3.9647j1j8

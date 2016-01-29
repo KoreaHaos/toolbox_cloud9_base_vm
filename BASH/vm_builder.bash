@@ -24,6 +24,18 @@ function get_capstone_setup() {
     #clear_screen_display_message_centered "get_capstone_setup, WOOT_WOOT!" 1;
 }
 
+function get_capstone_setup_and_make_it_primary_project() {
+    
+    clear_screen_display_message_centered "get_capstone_setup, WOOT_WOOT!" 1;
+    load_repository "https://github.com/KoreaHaos/CarrollCapStone.git";
+    rm -rf !(CarrollCapStone|.c9);
+    mv CarrollCapStone/.* CarrollCapStone/* .;
+    rmdir CarrollCapStone
+    #clear_screen_display_message_centered "get_capstone_setup, WOOT_WOOT!" 1;
+}
+
+
+
 function work_with_git_hub_repos() {
     clear_screen_display_message_centered "work_with_git_hub_repos NOT READY" 2;
     #clear_screen_display_message_centered "work_with_git_hub_repos READY" 1;
