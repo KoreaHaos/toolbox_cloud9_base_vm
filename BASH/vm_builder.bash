@@ -3,11 +3,10 @@ function setup_toolbox_for_github_bash() {
     
     clear_screen_display_message_centered "setup_toolbox_for_github_bash proceeding!" 1;
     git clone $_URL_4_toolbox_github_bash;
-    #cp -r ./toolbox_github_bash/bash/toolbox/github ./BASH/github;
     mkdir -p ~/haos_tools/BASH/github
     cp -r ./toolbox_github_bash/bash/toolbox/github ~/haos_tools/BASH;
     rm -rf toolbox_github_bash;
-    echo "FOLDER(S) AND FILE(S) ADDED TO BASH FOLDER!!"
+    echo "FOLDER(S) AND FILE(S) ADDED TO HOME DIRECTORY (haos_tools)!!"
     sleep 3;
 }
 
