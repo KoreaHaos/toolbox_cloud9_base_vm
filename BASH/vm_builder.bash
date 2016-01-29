@@ -66,6 +66,15 @@ function set_up_bash_history_file() {
     fi
     
     cp tmp_history_file.txt $_history_file_path;
+    
+    if [ -e $_path_for_temp_file ]; then
+        echo "TEMP FILE EXISTS!";
+        rm $_path_for_temp_file;
+        echo "DELETE TEMP FILE ATTEMPTED!";
+    else
+        echo "NO TEMP FILE EXISTS!";
+    fi
+    
 }
 
 function say_hello() {
