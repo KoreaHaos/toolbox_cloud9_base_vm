@@ -4,7 +4,7 @@ A tool for setting up Cloud9 VM.
 
 STATUS:building
 
-### To run:
+### To run (do not expect it to work...):
 
 ```bash
 bash RUNME.bash

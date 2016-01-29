@@ -1,3 +1,14 @@
+Browser Dump 1/29/16 4:45pm
+
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=bash%20script%20remove%20folders%20and%20files%20except&oq=bash%20script%20remove%20folders%20and%20files%20except&aqs=chrome..69i57.11684j1j8
+http://unix.stackexchange.com/questions/78376/in-linux-how-to-delete-all-files-except-the-pattern-txt
+http://stackoverflow.com/questions/19782342/bash-script-to-remove-all-files-and-directories-except-specific-ones
+http://www.cyberciti.biz/faq/linux-bash-delete-all-files-in-directory-except-few/
+https://www.google.com/search?espv=2&q=GLOBIGNORE+directory&oq=GLOBIGNORE+directory&gs_l=serp.3..0i30.2848.6716.0.7067.3.3.0.0.0.0.132.367.0j3.3.0.eprnk%2Ceremre%3Dgame...0...1.1.64.serp..0.2.232.qQoPSAdwFgs
+http://stackoverflow.com/questions/4325216/rm-all-files-except-some
+http://askubuntu.com/questions/364258/how-exclude-folders-for-remove-when-using-rm-rf-on-the-parent-dir
+http://ss64.com/bash/mkdir.html
+
 Browser Dump 1/29/16 2:45pm
 
 http://stackoverflow.com/questions/17959317/bash-delete-all-files-and-directories-but-certain-ones
