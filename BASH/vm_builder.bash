@@ -21,13 +21,13 @@ function cache_username_and_password_for_git() {
 function get_capstone_setup() {
     
     clear_screen_display_message_centered "get_capstone_setup, WOOT_WOOT!" 1;
-    load_repository "https://github.com/KoreaHaos/toolbox_cloud9_base_vm.git";
+    load_repository "https://github.com/KoreaHaos/carroll_cap_stone.git";
     #clear_screen_display_message_centered "get_capstone_setup, WOOT_WOOT!" 1;
 }
 function get_capstone_setup_and_make_it_primary_project() {
     
-    load_repository "https://github.com/KoreaHaos/toolbox_cloud9_base_vm.git";
-    export GLOBIGNORE="CarrollCapStone:.c9";
+    load_repository "https://github.com/KoreaHaos/carroll_cap_stone.git";
+    export GLOBIGNORE="carroll_cap_stone:.c9";
     rm -rf *;
     mv CarrollCapStone/.* CarrollCapStone/* .;
     rmdir CarrollCapStone;
