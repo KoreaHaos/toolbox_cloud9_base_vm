@@ -29,8 +29,8 @@ function get_capstone_setup_and_make_it_primary_project() {
     load_repository "https://github.com/KoreaHaos/carroll_cap_stone.git";
     export GLOBIGNORE="carroll_cap_stone:.c9";
     rm -rf *;
-    mv CarrollCapStone/.* CarrollCapStone/* .;
-    rmdir CarrollCapStone;
+    mv carroll_cap_stone/.* carroll_cap_stone/* .;
+    rmdir carroll_cap_stone;
     export GLOBIGNORE="";
 }
 
