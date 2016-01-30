@@ -11,7 +11,7 @@ bash builderQUICK_BUILD.bash
 
 ### To run quickbuild for the capstone (needs testing & polish and is password protected...):
 ```bash
-bash builderQUICK_BUILD.bash
+bash capstoneQUICK_BUILD.bash
 ```
 
 ### To run standard runner (not working at the moment...):
