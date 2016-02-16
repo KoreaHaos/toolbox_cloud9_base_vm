@@ -68,3 +68,26 @@ http://stackoverflow.com/questions/17368067/length-of-string-in-bash
 https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=30%20cm%20to%20inches&oq=30%20cm%20to%20&aqs=chrome.1.69i57j0l5.4567j0j8
 https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=seoul%20vurt&oq=seoul%20vurt&aqs=chrome..69i57.4133j0j8
 https://www.google.com/search?q=height&oq=height&aqs=chrome..69i57j0l5.973j0j8&sourceid=chrome&es_sm=122&ie=UTF-8
+
+Browser Dump 2/17/16 9:00am - building basic vm builder
+
+https://github.com/KoreaHaos/toolbox_cloud9_base_vm/tree/the-basics
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=git%20create%20new%20clean%20branch&oq=git%20create%20new%20clean%20branch&aqs=chrome..69i57j69i64.8589j0j8
+http://stackoverflow.com/questions/11487811/how-can-i-start-a-clean-branch-with-no-ancestry-then-commit-files-progressively
+https://git-scm.com/docs/git-checkout
+http://stackoverflow.com/questions/3231804/in-bash-how-to-add-are-you-sure-y-n-to-any-command-or-alias
+http://tldp.org/LDP/abs/html/complexfunct.html
+http://tldp.org/LDP/abs/html/functions.html
+http://tldp.org/LDP/abs/html/exit-status.html
+http://wiki.bash-hackers.org/commands/builtin/printf
+http://stackoverflow.com/questions/18568706/checking-number-of-arguments-bash-script
+http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_10_02.html
+http://www.cyberciti.biz/faq/bash-iterate-array/
+http://stackoverflow.com/questions/1250079/how-to-escape-single-quotes-within-single-quoted-strings
+https://help.github.com/articles/caching-your-github-password-in-git/
+http://stackoverflow.com/questions/5367068/clear-the-ubuntu-bash-screen-for-real
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=bash%20local&oq=bash%20local&aqs=chrome..69i57j0l5.2549j0j8
+http://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux
+http://stackoverflow.com/questions/8352851/how-to-call-shell-script-from-another-shell-script
+
+
