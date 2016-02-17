@@ -1,3 +1,37 @@
+function init() {
+    explain_script;
+    pause_for_carriage_return;
+    cache_username_and_password_for_git;
+    pause_for_carriage_return;
+    setup_toolbox_for_github_bash;
+    pause_for_carriage_return;
+    set_up_bash_history_file;
+}
+
+
+function explain_script() {
+    explanation=(
+        ''
+        'vm_builder-BASIC.bash has been called!'
+        ''
+    );
+    
+    clear;
+    
+    for line in "${explanation[@]}"
+    do
+      printf "%s\n" "${line}";
+    done
+}
+
+function cache_username_and_password_for_git() {
+    # This makes it so repeated user/password entry is not needed when git push commands are called.
+    # By default, this command will make Git cache user name and password for 15 minutes.
+    # More info : https://help.github.com/articles/caching-your-github-password-in-git/
+    printf "The command 'git config --global credential.helper cache' is being called.\n'"
+    git config --global credential.helper cache
+}
+
 function setup_toolbox_for_github_bash() {
     local _URL_4_toolbox_github_bash="https://github.com/KoreaHaos/toolbox_github_bash.git";
     
@@ -10,50 +44,14 @@ function setup_toolbox_for_github_bash() {
     sleep 3;
 }
 
-function cache_username_and_password_for_git() {
-    # This makes it so constant user/password entry is not needed.
-    # By default, this command will make Git cache user name and password for 15 minutes.
-    # More info : https://help.github.com/articles/caching-your-github-password-in-git/
-    
-    git config --global credential.helper cache
-}
-
-function get_capstone_setup() {
-    
-    clear_screen_display_message_centered "get_capstone_setup, WOOT_WOOT!" 1;
-    load_repository "https://github.com/KoreaHaos/carroll_cap_stone.git";
-    #clear_screen_display_message_centered "get_capstone_setup, WOOT_WOOT!" 1;
-}
-function get_capstone_setup_and_make_it_primary_project() {
-    
-    load_repository "https://github.com/KoreaHaos/carroll_cap_stone.git";
-    export GLOBIGNORE="carroll_cap_stone:.c9";
-    rm -rf *;
-    mv carroll_cap_stone/.* carroll_cap_stone/* .;
-    rmdir carroll_cap_stone;
-    export GLOBIGNORE="";
-}
-
 function pause_for_carriage_return() {
     local pause;
     printf "paused - hit return : ";
     read pause;
 }
 
-
-function work_with_git_hub_repos() {
-    clear_screen_display_message_centered "work_with_git_hub_repos NOT READY" 2;
-    #clear_screen_display_message_centered "work_with_git_hub_repos READY" 1;
-}
-
-function play_with_google_api() {
-    clear_screen_display_message_centered "play_with_google_api NOT READY" 2;
-    #clear_screen_display_message_centered "play_with_google_api READY" 1;
-}
-
 function set_up_bash_history_file() {
-    #clear_screen_display_message_centered "set_up_bash_history_file NOT READY" 1;
-    
+
     local _path_for_temp_file=tmp_history_file.txt;
     
     declare -a lines_to_prepend_to_bash_history_file;
@@ -108,6 +106,6 @@ function restart_cloud9_terminal() {
         clear_screen_display_message_centered "$_RESET_MESSAGE" 1;
         let COUNTER=COUNTER+1 
      done
-
-    # kill $PPID;
 }
+
+init;
