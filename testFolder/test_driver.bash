@@ -1,4 +1,4 @@
-source BASH/DELETE_THE_TOOLBOX.BASH
+source testFolder/DELETE_THE_TOOLBOX.BASH
 clear;
 printf "\n";
 printf "      PAY ATTENTION HERE!\n";
