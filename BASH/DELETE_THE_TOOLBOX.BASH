@@ -1,8 +1,8 @@
 printf "\n\n\n\n";
 
 function delete_toolbox() {
-    #local WD="$PWD";
-    local DIR_TO_DELETE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )";
+    local DIR_TO_DELETE="$PWD";
+    #local DIR_TO_DELETE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )";
     #printf "The current working directory is : %s\n" "$WD";
     printf "The current:\n DIRECTORY TO DELETE is : %s\n" "$DIR_TO_DELETE";
     

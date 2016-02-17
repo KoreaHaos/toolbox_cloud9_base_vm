@@ -6,6 +6,8 @@ function init() {
     setup_toolbox_for_github_bash;
     pause_for_carriage_return;
     set_up_bash_history_file;
+    pause_for_carriage_return;
+    source BASH/test_driver.bash;
 }
 
 
