@@ -90,4 +90,14 @@ https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=ba
 http://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux
 http://stackoverflow.com/questions/8352851/how-to-call-shell-script-from-another-shell-script
 
+Browser Dump 2/17/16 10:15m - building basic vm builder
+
+http://unix.stackexchange.com/questions/188182/how-to-get-current-working-directory
+http://stackoverflow.com/questions/3231804/in-bash-how-to-add-are-you-sure-y-n-to-any-command-or-alias
+http://www.linuxjournal.com/content/return-values-bash-functions
+http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html
+http://www.tldp.org/LDP/abs/html/comparison-ops.html
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=bash%20get%20directory%20script%20is%20in&oq=bash%20get%20directory%20script%20is%20in&aqs=chrome..69i57.5011j0j8
+http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
+
 
