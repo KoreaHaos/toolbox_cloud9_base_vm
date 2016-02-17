@@ -36,8 +36,7 @@ function delete_toolbox() {
                 printf "cntrol-c will save me!\n";
                 sleep 2;
                 printf "I see a light.\n";
-                source ./
-                #delete_directory "$DIR_TO_DELETE" "JUST_DO_IT";
+                delete_directory;
             else
                 printf "Not gonna do it!\n";
             fi
