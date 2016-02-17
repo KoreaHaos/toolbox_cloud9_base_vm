@@ -1,0 +1,1 @@
+find . -not -regex "./.c9/.*" -delete

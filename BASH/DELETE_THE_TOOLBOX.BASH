@@ -1,5 +1,9 @@
 printf "\n\n\n\n";
 
+function delete_directory() {
+    source BASH/DELETE_EVERYTHING_BUT_C9_DIRECTORY.bash;
+}
+
 function delete_toolbox() {
     local DIR_TO_DELETE="$PWD";
     #local DIR_TO_DELETE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )";
@@ -32,7 +36,8 @@ function delete_toolbox() {
                 printf "cntrol-c will save me!\n";
                 sleep 2;
                 printf "I see a light.\n";
-                delete_directory "$DIR_TO_DELETE" "JUST_DO_IT";
+                source ./
+                #delete_directory "$DIR_TO_DELETE" "JUST_DO_IT";
             else
                 printf "Not gonna do it!\n";
             fi
@@ -42,10 +47,6 @@ function delete_toolbox() {
     esac
 } 
 
-function delete_directory() {
-    echo "deleted $1";
-    rm -rf $1;
-}
 
 function ask_for_a_really_definate_yes() {
     
