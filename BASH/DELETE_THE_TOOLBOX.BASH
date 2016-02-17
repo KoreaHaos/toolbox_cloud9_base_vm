@@ -43,7 +43,7 @@ function delete_toolbox() {
 } 
 
 function delete_directory() {
-    echo "$1";
+    echo "deleted $1";
     rm -rf $1;
 }
 
