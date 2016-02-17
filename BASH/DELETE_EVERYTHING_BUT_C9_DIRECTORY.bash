@@ -5,5 +5,5 @@ find $1/ -maxdepth 1 -not -wholename "$1/.c9*" -not -wholename "$1/" -type d -pr
 echo "Press return to continue ...";
 read _pause;
 
-find $1 -maxdepth 1 -type f -delete
-find $1/ -maxdepth 1 -not -wholename "$1/.c9*" -not -wholename "$1/" -type d -delete
+find $1 -maxdepth 1 -type f -delete;
+find $1/ -maxdepth 1 -not -wholename "$1/.c9*" -not -wholename "$1/" -type d -exec rm -rf {} +;
