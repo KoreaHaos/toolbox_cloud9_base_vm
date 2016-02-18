@@ -1,13 +1,10 @@
 function init() {
-    explain_script;
-    pause_for_carriage_return;
-    cache_username_and_password_for_git;
-    pause_for_carriage_return;
-    setup_toolbox_for_github_bash;
-    pause_for_carriage_return;
-    set_up_bash_history_file;
-    pause_for_carriage_return;
-    source BASH/test_driver.bash;
+    explain_script; pause_for_carriage_return;
+    cache_username_and_password_for_git; pause_for_carriage_return;
+    setup_toolbox_for_github_bash; pause_for_carriage_return;
+    set_up_bash_history_file; pause_for_carriage_return;
+    
+    #source BASH/test_driver.bash;
 }
 
 
@@ -46,11 +43,6 @@ function setup_toolbox_for_github_bash() {
     sleep 3;
 }
 
-function pause_for_carriage_return() {
-    local pause;
-    printf "paused - hit return : ";
-    read pause;
-}
 
 function set_up_bash_history_file() {
 
@@ -108,6 +100,12 @@ function restart_cloud9_terminal() {
         clear_screen_display_message_centered "$_RESET_MESSAGE" 1;
         let COUNTER=COUNTER+1 
      done
+}
+
+function pause_for_carriage_return() {
+    local pause;
+    printf "paused - hit return : ";
+    read pause;
 }
 
 init;
