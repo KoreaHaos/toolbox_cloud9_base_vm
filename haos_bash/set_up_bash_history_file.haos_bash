@@ -1,0 +1,47 @@
+function set_up_bash_history_file() {
+
+    local _path_for_temp_file=tmp_history_file.txt;
+    
+    declare -a lines_to_prepend_to_bash_history_file;
+    
+    lines_to_prepend_to_bash_history_file=("bash ~/haos_tools/BASH/github/add_commit_push_all.bash");
+    
+    if [ -e $_path_for_temp_file ]; then
+        echo "TEMP FILE EXISTS!";
+        rm $_path_for_temp_file;
+        echo "DELETE TEMP FILE ATTEMPTED!";
+    else
+        echo "NO TEMP FILE EXISTS!";
+    fi
+    
+    for i in "${lines_to_prepend_to_bash_history_file[@]}"
+    do
+       echo "$i" >> tmp_history_file.txt;
+    done
+    
+    local _history_file_path=~/.bash_history;
+    
+    if [ -e $_history_file_path ]; then
+        echo "History file present, commands will be prepended to file.";
+        cat $_history_file_path >>tmp_history_file.txt
+    else
+        echo "No history file present, creation will be attempted.";
+    fi
+    
+    cp tmp_history_file.txt $_history_file_path;
+    
+    if [ -e $_path_for_temp_file ]; then
+        echo "TEMP FILE EXISTS!";
+        rm $_path_for_temp_file;
+        echo "DELETE TEMP FILE ATTEMPTED!";
+    else
+        echo "NO TEMP FILE EXISTS!";
+    fi
+    
+}
+
+function init() {
+    set_up_bash_history_file;
+}
+
+init
