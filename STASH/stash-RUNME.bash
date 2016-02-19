@@ -1,3 +1,28 @@
+:<<'EOF1'
+
+function init() {
+    explain_script;
+    
+
+:<<'EOF'
+    read -r -p "Would you like to setup the basics? [y/N] " response
+    
+    case $response in
+        [yY][eE][sS]|[yY]) 
+            setup_the_basics;
+            ;;
+        [nN][oO]|[nN]) 
+            exit_runme_with_no_error;
+            ;;
+            
+        *)
+            exit_runme_with_error "Do not understand : " "$response";
+            ;;
+    esac
+EOF
+}
+
+
 function explain_script() {
     explanation=(
         ''
@@ -79,21 +104,6 @@ function exit_runme_with_no_error() {
     exit 0;
 }
 
-function init() {
-    explain_script;
-    read -r -p "Would you like to setup the basics? [y/N] " response
-    case $response in
-        [yY][eE][sS]|[yY]) 
-            setup_the_basics;
-            ;;
-        [nN][oO]|[nN]) 
-            exit_runme_with_no_error;
-            ;;
-            
-        *)
-            exit_runme_with_error "Do not understand : " "$response";
-            ;;
-    esac
-}
 
 init;
+EOF1

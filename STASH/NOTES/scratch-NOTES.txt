@@ -90,7 +90,7 @@ https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=ba
 http://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux
 http://stackoverflow.com/questions/8352851/how-to-call-shell-script-from-another-shell-script
 
-Browser Dump 2/17/16 10:15m - building basic vm builder
+Browser Dump 2/17/16 10:15am - building basic vm builder
 
 http://unix.stackexchange.com/questions/188182/how-to-get-current-working-directory
 http://stackoverflow.com/questions/3231804/in-bash-how-to-add-are-you-sure-y-n-to-any-command-or-alias
@@ -100,4 +100,34 @@ http://www.tldp.org/LDP/abs/html/comparison-ops.html
 https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=bash%20get%20directory%20script%20is%20in&oq=bash%20get%20directory%20script%20is%20in&aqs=chrome..69i57.5011j0j8
 http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
 
+Browser Dump 2/19/16 12:23pm - building basic vm runner
 
+https://github.com/KoreaHaos?tab=repositories
+https://github.com/KoreaHaos/toolbox_cloud9_base_vm
+http://stackoverflow.com/questions/59838/check-if-a-directory-exists-in-a-shell-script
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=bash%20store%20ls%20return%20in%20array&oq=bash%20store%20ls%20return%20in%20array&aqs=chrome..69i57.6206j0j8
+http://stackoverflow.com/questions/18884992/how-do-i-assign-ls-to-an-array-in-linux-bash
+http://www.cyberciti.biz/faq/bash-iterate-array/
+http://www.thegeekstuff.com/2010/06/bash-array-tutorial/
+http://www.tldp.org/LDP/abs/html/untyped.html
+http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_10_02.html
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=bash%20string%20matching&oq=bash%20string%20matching&aqs=chrome..69i57j0l5.2939j0j8
+http://stackoverflow.com/questions/229551/string-contains-in-bash
+http://www.tldp.org/LDP/abs/html/comparison-ops.html
+http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html
+http://tldp.org/LDP/abs/html/special-chars.html
+http://tldp.org/LDP/abs/html/internalvariables.html#APPREF
+https://www.google.com/search?espv=2&q=bash+display+count+in+for+loop&spell=1&sa=X&ved=0ahUKEwiOqO6Q2YLLAhUD3KYKHVxODusQvwUIGigA&biw=1920&bih=1091
+http://stackoverflow.com/questions/10515964/counter-increment-in-bash-loop-not-working
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=bash%20iterate%20array%20show%20index&oq=bash%20iterate%20array%20show%20index&aqs=chrome..69i57.7462j0j4
+http://stackoverflow.com/questions/6723426/looping-over-arrays-printing-both-index-and-value
+http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_02.html
+http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html#sect_07_01_01
+http://www.cyberciti.biz/faq/finding-bash-shell-array-length-elements/
+http://www.tldp.org/LDP/abs/html/comparison-ops.html
+http://stackoverflow.com/questions/16396146/using-and-operator-in-if-statement-bash-script
+http://www.tldp.org/LDP/abs/html/untyped.html
+http://www.tldp.org/LDP/abs/html/arithexp.html
+http://stackoverflow.com/questions/2210349/bash-test-whether-string-is-valid-as-an-integer
+http://www.tldp.org/LDP/abs/html/comparison-ops.html
+http://www.thegeekstuff.com/2010/06/bash-if-statement-examples/
