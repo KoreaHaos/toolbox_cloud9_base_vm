@@ -2,4 +2,4 @@
 
 A tool for setting up Cloud9 Virtual Machines to do things.
 
-Still fiddling...
+<p>Still fiddling...</p>

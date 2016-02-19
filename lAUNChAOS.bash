@@ -28,7 +28,7 @@ function explain_what_can_be_done() {
         let "count_of_dir_and_files+=1"
     done
 
-    if [ ${#count_of_haos_bash_files[@]} -gt 0 ]
+    if [ ${#haos_bash_files_in_current_directory[@]} -gt 0 ]
     then
         
         function display_choices() {
@@ -51,11 +51,12 @@ function explain_what_can_be_done() {
         do
             if [ $users_choice -gt -1 ]
             then
-                printf "Running file : %s \n" "${haos_bash_files_in_current_directory[$users_choice]}";
-                read -p "hit return to continue" _pause;
+                printf "\nbash %s" "${haos_bash_files_in_current_directory[$users_choice]}";
+                read -p "" _pause;
+                printf "\n" "${haos_bash_files_in_current_directory[$users_choice]}";
                 bash ${haos_bash_files_in_current_directory[$users_choice]};
-                printf "Completed run of file : %s \n" "${haos_bash_files_in_current_directory[$users_choice]}";
-                read -p "hit return to continue" _pause;
+                printf "\n->%s<- : COMPLETED." "${haos_bash_files_in_current_directory[$users_choice]}";
+                read -p "" _pause;
                 clear
             fi
             
@@ -74,7 +75,9 @@ function explain_what_can_be_done() {
                 let "users_choice = $users_choice";
             elif [ "$users_choice" = "q" ]
             then
-                echo "Bye now!";
+                printf "\nBye now!\n";
+                sleep 1.5;
+                clear;
             else
                 printf "I am not sure how to handle your input of : '%s'\n" "$users_choice";
                 printf "You can enter 'q' if you would like to quit.\n";
@@ -82,7 +85,7 @@ function explain_what_can_be_done() {
             fi
         done
     else
-        printf "There is nothing i can do here...";
+        printf "There is nothing i can do here...\n";
     fi
 }
 

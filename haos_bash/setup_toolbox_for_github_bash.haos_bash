@@ -1,0 +1,55 @@
+function clear_screen_display_message_centered() {
+  
+  # setup local variables
+  
+  local _message_to_display="";
+  
+  local _terminals_cols="$(tput cols)"
+  local _terminals_lines="$(tput lines)"
+  
+  local _half_width=$(( $_terminals_cols/2 ));
+  local _half_height=$(( $_terminals_lines/2 ));
+  
+  
+  if [ -z "$1" ]; then
+    _message_to_display="DEFAULT_MESSAGE!";
+  else
+    _message_to_display="$1";
+  fi
+
+  local _message_length=${#_message_to_display}
+  local _curser_offset=$(( $_half_width-$_message_length ));
+
+  clear
+
+  tput cup $_half_height $_curser_offset;
+  
+  
+  printf "%s" "$_message_to_display";
+  
+  if [ -z "$2" ]; then
+    sleep 1;
+  else
+    sleep $2;
+  fi
+  
+  printf "\n";
+}
+
+function setup_toolbox_for_github_bash() {
+    local _URL_4_toolbox_github_bash="https://github.com/KoreaHaos/toolbox_github_bash.git";
+    
+    clear_screen_display_message_centered "setup_toolbox_for_github_bash proceeding!" 1;
+    git clone $_URL_4_toolbox_github_bash;
+    mkdir -p ~/haos_tools/BASH/github
+    cp -r ./toolbox_github_bash/bash/toolbox/github ~/haos_tools/BASH;
+    rm -rf toolbox_github_bash;
+    echo "FOLDER(S) AND FILE(S) ADDED TO HOME DIRECTORY (haos_tools)!!"
+    sleep 3;
+}
+
+function init() {
+    setup_toolbox_for_github_bash
+}
+
+init
