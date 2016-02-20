@@ -1,3 +1,16 @@
+
+function setup_toolbox_for_github_bash() {
+    local _URL_4_toolbox_github_bash="https://github.com/KoreaHaos/toolbox_github_bash.git";
+    
+    clear_screen_display_message_centered "setup_toolbox_for_github_bash proceeding!" 1;
+    git clone $_URL_4_toolbox_github_bash;
+    mkdir -p ~/haos_tools/BASH/github
+    cp -r ./toolbox_github_bash/bash/toolbox/github ~/haos_tools/BASH;
+    rm -rf toolbox_github_bash;
+    echo "FOLDER(S) AND FILE(S) ADDED TO HOME DIRECTORY (haos_tools)!!"
+    sleep 3;
+}
+
 function clear_screen_display_message_centered() {
   
   # setup local variables
@@ -34,18 +47,6 @@ function clear_screen_display_message_centered() {
   fi
   
   printf "\n";
-}
-
-function setup_toolbox_for_github_bash() {
-    local _URL_4_toolbox_github_bash="https://github.com/KoreaHaos/toolbox_github_bash.git";
-    
-    clear_screen_display_message_centered "setup_toolbox_for_github_bash proceeding!" 1;
-    git clone $_URL_4_toolbox_github_bash;
-    mkdir -p ~/haos_tools/BASH/github
-    cp -r ./toolbox_github_bash/bash/toolbox/github ~/haos_tools/BASH;
-    rm -rf toolbox_github_bash;
-    echo "FOLDER(S) AND FILE(S) ADDED TO HOME DIRECTORY (haos_tools)!!"
-    sleep 3;
 }
 
 function init() {
