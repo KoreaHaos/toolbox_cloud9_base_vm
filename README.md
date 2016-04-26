@@ -1,8 +1,5 @@
 # toolbox_cloud9_base_vm
 
-A tool for setting up Cloud9 Virtual Machines to do things.
+A toolbox for setting up Cloud9 Virtual Machines to do the things.
 
-<p>Still fiddling...</p>
-<p>And fiddling...</p>
-<p>And fiddling...</p>
-<p>And fiddling...</p>
+* Figuring out if this tool makes the cut... (4/26/16)
